@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <header class="bg-slate-100 sticky top-0 z-40">
+        <nav class="container mx-auto flex">
+            <div class="flex basis-4/12">
+                <a href="">Link1</a>
+                <a href="">Link2</a>
+                <a href="">Link3</a>
+            </div>
+            <div class="flex basis-4/12">
+                <img src="img/abstract-circle-logo-icon-free-png.webp" class="w-24" alt="">
+            </div>
+            <div class="flex basis-4/12">
+                
+            </div>
+        </nav>
+    </header> -->
+    
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40">
+        <nav class="container mx-auto p-4 bg-slate-100">
+            <div class="flex items-center justify-between">
+
+                <ul class="flex items-center gap-4">
+                <li><a href="" class="hover:text-purple-900">Link1</a></li>
+                <li><a href="" class="hover:text-purple-900">Link1</a></li>
+                <li><a href="" class="hover:text-purple-900">Link1</a></li>
+                </ul>
+
+            <div class="flex">
+                <img src="/img/purple-play-company-logo-741ADB4144-seeklogo.com.png" class="w-24" alt="">
+            </div>
+
+            <div class="flex gap-4 items-center">
+                <div class="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="bg-slate-100" placeholder="Search..">
+                    
+                </div>
+                <div class="">
+                    <button type="button" class="bg-purple-600 hover:bg-purple-900 text-white rounded-md px-7 py-3">Sign Up</button>
+                </div>
+            </div>
+            </div>
+            
+        </nav>
+    </header>
+
+        <!-- Ana Alan -->
+         <section class="relative">
+            <div class="container mx-auto p-4 bg-slate-300">
+                <div class="flex-col justify-center items-center text-center">
+                    
+                    <h1 class="text-6xl text-slate-700">Lorem ipsum<br> dolor sit <span class="text-purple-600">amet<br> consectetur</span>.</h1>
+                    <p class="text-xl text-slate-700 mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Laboriosam, expedita.</p>
+                </div>
+
+                <div class="flex items-center justify-center gap-4 mt-4">
+                    <button type="button" class="bg-purple-600 hover:bg-purple-900 text-white rounded-md px-7 py-3">Get Started</button>
+                    <button type="button" class="text-dark px-7 py-3 hover:text-purple-900">Learn More</button>
+                </div>
+
+            </div>
+            <!-- İkinci Alan -->
+            <div class="container mx-auto p-4 bg-slate-100">
+                <div class="flex items-center justify-center gap-4 mt-4">
+                    <h2 class="text-4xl font-extrabold text-slate-900">Lorem ipsum dolor sit amet.</h2>
+                </div>
+
+                <div class="flex justify-center items-center gap-12 mt-12">
+                    <div class="basis-3/12 bg-white rounded">
+                        <p class="text-center p-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea libero voluptatum pariatur debitis itaque vero nesciunt enim explicabo totam dicta!</p>
+                        <div class="bg-purple-600 flex flex-col p-8 text-center rounded-b-lg text-white"> Lorem, ipsum dolor.</div>
+                    </div>
+                    <div class="basis-3/12 bg-white rounded">
+                        <p class="text-center p-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea libero voluptatum pariatur debitis itaque vero nesciunt enim explicabo totam dicta!</p>
+                        <div class="bg-purple-600 flex flex-col p-8 text-center rounded-b-lg text-white"> Lorem, ipsum dolor.</div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center gap-12 mt-12">
+                    <div class="basis-3/12 bg-white rounded">
+                        <p class="text-center p-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea libero voluptatum pariatur debitis itaque vero nesciunt enim explicabo totam dicta!</p>
+                        <div class="bg-purple-600 flex flex-col p-8 text-center rounded-b-lg text-white"> Lorem, ipsum dolor.</div>
+                    </div>
+                    <div class="basis-3/12 bg-white rounded">
+                        <p class="text-center p-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea libero voluptatum pariatur debitis itaque vero nesciunt enim explicabo totam dicta!</p>
+                        <div class="bg-purple-600 flex flex-col p-8 text-center rounded-b-lg text-white"> Lorem, ipsum dolor.</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container mx-auto p-8 bg-slate-300 flex justify-center">
+
+                <div class="flex flex-col basis-4/12 justify-start p-8 bg-slate-100 rounded">
+                    <h2 class="text-4xl font-extrabold text-slate-900 mb-6">Contact us</h2>
+                    <label for="fname">First name:</label>
+                    <input type="text" class="flex flex-1 items-center mb-2 mt-4" id="fname" name="fname" placeholder="Your name">
+                    <label for="lname">E-Mail:</label>
+                    <input type="email" class="flex flex-1 items-center mb-2 mt-4" id="email" name="email" placeholder="Email Adress">
+                    <label for="text">Message:</label>
+                    <input type="text" class="flex flex-1 items-center mb-2 mt-4" id="fname" name="fname" placeholder="Your Message">
+                    <button type="button" class="bg-purple-600 hover:bg-purple-900 text-white rounded-md px-7 py-3 mt-4">Send</button>
+                
+                    
+                </div>
+
+            </div>
+
+            <div class="container mx-auto p-8 bg-slate-300">
+                <footer class="p-4 bg-slate-300 mt-12 flex">
+                    <ul class="basis-6/12 gap-4 flex">
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Price</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+            
+                    <div class="flex items-center justify-end gap-4 basis-6/12">
+                        <i class="fa-brands fa-twitter text-purple-600"></i>
+                        <i class="fa-brands fa-linkedin text-purple-600"></i>
+                        <i class="fa-brands fa-square-github text-purple-600"></i>
+                    </div>
+            
+            
+                </footer>
+            </div>
+
+
+
+            
+            
+         </section>
+
+         
+</body>
+</html>
